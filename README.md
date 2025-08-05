@@ -11,6 +11,9 @@
  * [Topluluk Twitter](https://twitter.com/corenodeHQ)<br>
 
 
+<img width="462" height="285" alt="image" src="https://github.com/user-attachments/assets/63aff6f9-e99c-49e1-a47d-7887a0b644bd" />
+
+
 ### Portları açın
 ```
 sudo ufw allow 22/tcp    # SSH
