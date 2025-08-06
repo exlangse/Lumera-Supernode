@@ -32,6 +32,7 @@ supernode version
 ```
 supernode init --key-name myWalletSNKey --recover --chain-id lumera-testnet-2
 ```
+↪️NOT: eğer yeni cüzdan oluşturmak istiyorsanız onla init edecekseniz yukarıdaki koddan --recover kısmını kaldırın. çıkan çıktıyıda kaydetmeyi unutmayın size kelimeler ve cüzdan vericek
 ↪️NOT: os file test die seçeneklerden testi seçin.kelimeleri sorunca yazın. grpc sorucak validaor nodunuzun grpcsini yazın sonu 90 lı olan (ip:port) açık değilse node sunucundan app.toml açın grpc die aratın false olan yer varsa başında ture ile değiştirin localhost:port yazıyorsa locakhost yerine 0.0.0.0 yazın kaydedin ve nodu baştan başlatın.
 
 - validator sunucusundan vali adresi alma explorerdende bakabilirsiniz dabi. `lumerad keys show cüzdan-adini-yaz --bech val -a`
